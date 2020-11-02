@@ -17,7 +17,7 @@
         <td><b>Server Variable</b></td>
         <td><b>Value</b></td>
       </tr>
-      <% for each strKey In Request.ServerVariables %>
+      <% for each strKey in Request.ServerVariables %>
       <tr>
         <td><%=strKey%></td>
         <td><%=Request.ServerVariables(strKey)%></td>
